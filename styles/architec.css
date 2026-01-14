@@ -5,3 +5,43 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+/* dark-02 */
+.primary-color{
+    color: #424242;
+}
+/* dark-03 */
+.seconday-color{
+    color:#727272 ;
+}
+.bg-light{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+
+
+/* header design */
+
+/* navbar related styles*/
+.navbar{
+    
+    justify-content: space-between;
+}
+.nav-menu{
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-container, .banner{
+    max-width:1440px;
+    margin: 0 auto;
+}
